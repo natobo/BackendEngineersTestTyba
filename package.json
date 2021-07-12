@@ -1,0 +1,39 @@
+{
+  "name": "pruebatyba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index",
+    "dev": "DEBUG=app:* nodemon index",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natobo/BackendEngineersTestTyba.git"
+  },
+  "keywords": [],
+  "author": "Nicolás Tobo <nicotobo@gmail.com> (natobo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natobo/BackendEngineersTestTyba/issues"
+  },
+  "homepage": "https://github.com/natobo/BackendEngineersTestTyba#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.0.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  }
+}
