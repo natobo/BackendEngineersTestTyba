@@ -6,7 +6,7 @@
 
 # Endpoints:
 
-- POST domain/users/signup
+- POST {{url}}/users/signup
 
 ```bash
    {
