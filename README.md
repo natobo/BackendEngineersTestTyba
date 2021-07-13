@@ -2,7 +2,6 @@
 
 - npm start to run server. (watchout for the postgres env)
 - npm run dev to run in development mode
-- See folder utils/postmanCollection to more details
 
 # Endpoints:
 
