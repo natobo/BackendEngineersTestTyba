@@ -18,6 +18,7 @@ const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
 
 const userRouter = require("./routes/userRouter");
+const locationRouter = require("./routes/locationRouter");
 
 // MIDDLEWARES
 app.use(cors());
@@ -37,6 +38,7 @@ app.use(express.json());
 
 // ROUTES
 app.use('/api/users', userRouter);
+app.use('/api/location',locationRouter);
 
 // RUN
 app.all('*', (req, res, next) => {

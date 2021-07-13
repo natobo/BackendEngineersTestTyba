@@ -17,7 +17,7 @@
   }
 ```
 
-- LOGIN {{url}}/users/login
+- POST {{url}}/users/login
 
 ```bash
   {
@@ -26,7 +26,22 @@
   }
 ```
 
+- GET {{url}}/users/logout
+- POST {{url}}/location/getRestaurants
+
+```bash
+  {
+    "lat":45,
+    "lng":-110
+ }
+```
+
 ### With Admin access and Login
 
 - GET ALL domain/users/ (needs authorization header and admin auth first)
 - DELETE domain/users/ (needs authorization header and admin auth first)
+
+## ¿Qué falto?
+
+- Historial 😅
+- Pruebas unitarias con jest 🙈

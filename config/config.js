@@ -13,6 +13,7 @@ const config = {
     emailUsername: process.env.EMAIL_USERNAME,
     emailPassword: process.env.EMAIL_PASSWORD,
     emailKey: process.env.EMAIL_KEY,
+    googleApiKey: process.env.GOOGLE_MAPS_API_KEY,
 }
 
 module.exports = { config };

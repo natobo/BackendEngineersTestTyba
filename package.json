@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/natobo/BackendEngineersTestTyba#readme",
   "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.1.16",
+    "axios": "^0.21.1",
     "bcrypt": "^5.0.1",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
